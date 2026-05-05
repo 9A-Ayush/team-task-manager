@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #0F172A;
+  color: #F1F5F9;
+  min-height: 100vh;
+}
+
+a { text-decoration: none; color: inherit; }
+
+button {
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 10px 20px;
+  transition: opacity 0.2s;
+}
+button:hover { opacity: 0.85; }
+
+input, textarea, select {
+  background: #0F172A;
+  border: 1px solid #334155;
+  border-radius: 8px;
+  color: #F1F5F9;
+  padding: 10px 14px;
+  font-size: 14px;
+  width: 100%;
+  outline: none;
+  color-scheme: dark;
+}
+input:focus, textarea:focus, select:focus {
+  border-color: #6C63FF;
+}
+
+.card {
+  background: #1E293B;
+  border-radius: 12px;
+  padding: 20px;
+  border: 1px solid #334155;
+}
+
+.btn-primary {
+  background: #6C63FF;
+  color: white;
+  width: 100%;
+  padding: 12px;
+  font-size: 15px;
+}
+
+.btn-danger {
+  background: #F87171;
+  color: white;
+}
+
+.btn-success {
+  background: #4ADE80;
+  color: #0F172A;
+}
+
+.badge {
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+}
+.badge-todo     { background: #334155; color: #94A3B8; }
+.badge-inprogress { background: #1D4ED8; color: #BFDBFE; }
+.badge-done     { background: #166534; color: #BBF7D0; }
+.badge-high     { background: #7F1D1D; color: #FCA5A5; }
+.badge-medium   { background: #78350F; color: #FDE68A; }
+.badge-low      { background: #14532D; color: #86EFAC; }
+
+.page-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
